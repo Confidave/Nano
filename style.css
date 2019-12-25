@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.intro {
+  height: 100vh;
+}
+
+.intro video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.intro h1 {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: white;
+}
+
+.intro .heart{
+  position: absolute;
+  top: 50%;
+  left: 19%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: white;
+}
+.intro .hand{
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: white;
+}
+.intro .waist{
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: white;
+}
+.intro .feet1{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: white;
+}
+.intro .feet2{
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: white;
+}
+.intro .loot{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: white;
+}
+section {
+  height: 100vh;
+  color: black;
+}
+
+section h1 {
+  padding-top: 300px;
+  text-align: center;
+  font-size: 80px;
+}
